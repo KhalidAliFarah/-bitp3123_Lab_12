@@ -4,9 +4,14 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+/**
+ * SecondClassDataConsumption: Read and process rainfall data from a binary file.
+ * @Author Khalid
+ */
+
 public class SecondClassDataConsumption {
     public static void main(String[] args) {
-        String fileName = "rainfall_data.bin";
+        String fileName = "rainfall_data.bin"; // Name of the binary file
         int stationCount = 0; // Counter for the number of stations
         int districtCount = 0; // Counter for the number of districts
         double totalRainfall = 0.0; // Accumulator for the total rainfall
